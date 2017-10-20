@@ -1,0 +1,3 @@
+ID	profiled_SRR1748776_1	profiled_SRR1748776_2
+#SampleID	Metaphlan2_Analysis	Metaphlan2_Analysis
+unclassified	100.0	100.0

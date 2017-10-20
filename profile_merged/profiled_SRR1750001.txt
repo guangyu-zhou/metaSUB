@@ -1,0 +1,16 @@
+ID	profiled_SRR1750001_1	profiled_SRR1750001_2
+#SampleID	Metaphlan2_Analysis	Metaphlan2_Analysis
+k__Bacteria	100.0	100.0
+k__Bacteria|p__Bacteroidetes	3.16798	2.58535
+k__Bacteria|p__Bacteroidetes|c__Flavobacteriia	3.16798	2.58535
+k__Bacteria|p__Bacteroidetes|c__Flavobacteriia|o__Flavobacteriales	3.16798	2.58535
+k__Bacteria|p__Bacteroidetes|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae	3.16798	2.58535
+k__Bacteria|p__Bacteroidetes|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae|g__Chryseobacterium	3.16798	2.58535
+k__Bacteria|p__Bacteroidetes|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae|g__Chryseobacterium|s__Chryseobacterium_unclassified	3.16798	2.58535
+k__Bacteria|p__Proteobacteria	96.83202	97.41465
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	96.83202	97.41465
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales	96.83202	97.41465
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae	96.83202	97.41465
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas	96.83202	97.41465
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_stutzeri	96.83202	97.41465
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_stutzeri|t__Pseudomonas_stutzeri_unclassified	96.83202	97.41465

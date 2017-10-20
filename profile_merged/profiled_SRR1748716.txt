@@ -1,0 +1,13 @@
+ID	profiled_SRR1748716_1	profiled_SRR1748716_2
+#SampleID	Metaphlan2_Analysis	Metaphlan2_Analysis
+k__Bacteria	100.0	100.0
+k__Bacteria|p__Proteobacteria	100.0	100.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	100.0	100.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales	100.0	100.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae	0.0	12.60747
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Acinetobacter	0.0	12.60747
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Acinetobacter|s__Acinetobacter_unclassified	0.0	12.60747
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae	100.0	87.39253
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas	100.0	87.39253
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_putida	100.0	87.39253
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_putida|t__Pseudomonas_putida_unclassified	100.0	87.39253

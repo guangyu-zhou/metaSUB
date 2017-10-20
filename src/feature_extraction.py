@@ -111,17 +111,20 @@ def construct_network():
                 continue
             fout.write((str(i) + ' ' + str(j) + ' '+ str(dis_pairwise[i,j]) + '\n'))
 
-def extract_feats(locs, embedding = False):
+def extract_feats(locs, embedding = 2):
     feats_vec = []
     line_vecs = extract_subway_line_vec(locs)
-    if embedding:
-        emb_vecs =  load_emb(locs)
+    emb_vecs = load_emb(locs)
+
+    if embedding == 2:
         for v in range(len(locs)):
             # print np.concatenate([line_vecs[v], emb_vecs[v]])
             feats_vec.append(np.concatenate([line_vecs[v], emb_vecs[v]]))
         # print len(feats_vec[0])
         return np.array(feats_vec)
-    else:
+    elif embedding == 1:
+        return np.array(emb_vecs)
+    elif embedding == 0:
         return line_vecs
     # print line_vecs,emb_vecs
 

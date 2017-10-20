@@ -18,6 +18,19 @@ from sklearn.svm import LinearSVC
 from sklearn.svm import SVC
 from sklearn.neural_network import MLPClassifier
 
+import argparse
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Run naive_model.py")
+    # parser = argparse.ArgumentParser(description="Run naive_model.py")
+
+    parser.add_argument('--KFold', type=int, default=3, help='Number of Fold. Default is 3.')
+#
+    parser.add_argument('--embedding', type=int, default=0, help='Feature hyperparameter. Default is 0.')
+
+    return parser.parse_args()
+
 def process_locs(train_locs, validation_locs, test_locs):
     # print(train_locs)
     all_locs = list(itertools.chain(train_locs, validation_locs, test_locs))
@@ -174,7 +187,8 @@ def nn(line_vecs_train, train, line_vecs_validation, validation):
 K: number of folds. Will select 1 fold for testing, others for training,
 CURRENT UPDATE: ALL LABELS/SPECIES NOT IN TRAINING ARE REMOVED FROM BOTH
 '''
-def cv(K):
+def cv(args):
+    K = args.KFold
     k_folds_X, k_folds_loc = K_fold_split(K, 20, True)
     for test_ind in range(K):
         print("In Fold", test_ind)
@@ -209,8 +223,9 @@ def cv(K):
         # line_vecs_test = fe.extract_subway_line_vec(test_locs)
 
         # print(train_locs)
-        line_vecs_train = fe.extract_feats(train_locs, True)
-        line_vecs_test = fe.extract_feats(test_locs, True)
+
+        line_vecs_train = fe.extract_feats(train_locs, args.embedding)
+        line_vecs_test = fe.extract_feats(test_locs, args.embedding)
         # print(line_vecs_train[:3])
         # print(line_vecs_train.shape, line_vecs_test.shape)
 
@@ -228,7 +243,17 @@ warnings.filterwarnings("ignore")
 
 
 if __name__ == '__main__':
-    cv(3)
+    args = parse_args()
+    if args.embedding == 2:
+        print("Station + embedding features")
+    elif args.embedding == 1:
+        print("Only embedding features")
+    elif args.embedding == 0:
+        print("Only station features")
+    else:
+        print("Invalid, use default 2")
+
+    cv(args)
 
 
 # uncomment to plot the data

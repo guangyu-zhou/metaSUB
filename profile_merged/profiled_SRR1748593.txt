@@ -1,0 +1,16 @@
+ID	profiled_SRR1748593_1	profiled_SRR1748593_2
+#SampleID	Metaphlan2_Analysis	Metaphlan2_Analysis
+k__Bacteria	100.0	100.0
+k__Bacteria|p__Firmicutes	10.69912	10.62418
+k__Bacteria|p__Firmicutes|c__Bacilli	10.69912	10.62418
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales	10.69912	10.62418
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae	10.69912	10.62418
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae|g__Bacillus	10.69912	10.62418
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae|g__Bacillus|s__Bacillus_cereus_thuringiensis	10.69912	10.62418
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae|g__Bacillus|s__Bacillus_cereus_thuringiensis|t__Bacillus_cereus_thuringiensis_unclassified	10.69912	10.62418
+k__Bacteria|p__Proteobacteria	89.30088	89.37582
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	89.30088	89.37582
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacteriales	89.30088	89.37582
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacteriales|f__Enterobacteriaceae	89.30088	89.37582
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacteriales|f__Enterobacteriaceae|g__Pantoea	89.30088	89.37582
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacteriales|f__Enterobacteriaceae|g__Pantoea|s__Pantoea_unclassified	89.30088	89.37582

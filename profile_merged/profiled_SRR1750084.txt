@@ -1,0 +1,17 @@
+ID	profiled_SRR1750084_1	profiled_SRR1750084_2
+#SampleID	Metaphlan2_Analysis	Metaphlan2_Analysis
+k__Bacteria	100.0	100.0
+k__Bacteria|p__Firmicutes	87.39342	52.71287
+k__Bacteria|p__Firmicutes|c__Bacilli	87.39342	52.71287
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales	87.39342	52.71287
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae	87.39342	52.71287
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus	87.39342	52.71287
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus|s__Staphylococcus_hominis	87.39342	52.71287
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus|s__Staphylococcus_hominis|t__Staphylococcus_hominis_unclassified	87.39342	52.71287
+k__Bacteria|p__Proteobacteria	12.60658	47.28713
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	12.60658	47.28713
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales	12.60658	47.28713
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae	12.60658	47.28713
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Psychrobacter	12.60658	47.28713
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Psychrobacter|s__Psychrobacter_cryohalolentis	12.60658	47.28713
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Psychrobacter|s__Psychrobacter_cryohalolentis|t__GCF_000013905	12.60658	47.28713

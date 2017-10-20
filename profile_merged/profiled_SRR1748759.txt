@@ -1,0 +1,16 @@
+ID	profiled_SRR1748759_1	profiled_SRR1748759_2
+#SampleID	Metaphlan2_Analysis	Metaphlan2_Analysis
+k__Bacteria	100.0	100.0
+k__Bacteria|p__Proteobacteria	100.0	100.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	100.0	100.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacteriales	62.92131	62.62656
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacteriales|f__Enterobacteriaceae	62.92131	62.62656
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacteriales|f__Enterobacteriaceae|g__Pantoea	62.92131	62.62656
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacteriales|f__Enterobacteriaceae|g__Pantoea|s__Pantoea_unclassified	62.92131	62.62656
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales	37.07869	37.37344
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae	8.91669	0.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Acinetobacter	8.91669	0.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Acinetobacter|s__Acinetobacter_unclassified	8.91669	0.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae	28.162	37.37344
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas	28.162	37.37344
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_unclassified	28.162	37.37344

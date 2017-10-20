@@ -1,0 +1,11 @@
+ID	profiled_SRR1748741_1	profiled_SRR1748741_2
+#SampleID	Metaphlan2_Analysis	Metaphlan2_Analysis
+k__Bacteria	100.0	100.0
+k__Bacteria|p__Proteobacteria	100.0	100.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	100.0	100.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Xanthomonadales	100.0	100.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Xanthomonadales|f__Xanthomonadaceae	100.0	100.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Xanthomonadales|f__Xanthomonadaceae|g__Stenotrophomonas	100.0	100.0
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Xanthomonadales|f__Xanthomonadaceae|g__Stenotrophomonas|s__Stenotrophomonas_maltophilia	100.0	93.53736
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Xanthomonadales|f__Xanthomonadaceae|g__Stenotrophomonas|s__Stenotrophomonas_maltophilia|t__Stenotrophomonas_maltophilia_unclassified	100.0	93.53736
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Xanthomonadales|f__Xanthomonadaceae|g__Stenotrophomonas|s__Stenotrophomonas_unclassified	0.0	6.46264

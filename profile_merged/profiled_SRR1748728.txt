@@ -1,0 +1,17 @@
+ID	profiled_SRR1748728_1	profiled_SRR1748728_2
+#SampleID	Metaphlan2_Analysis	Metaphlan2_Analysis
+k__Bacteria	100.0	100.0
+k__Bacteria|p__Actinobacteria	9.23677	7.92716
+k__Bacteria|p__Actinobacteria|c__Actinobacteria	9.23677	7.92716
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Actinomycetales	9.23677	7.92716
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Actinomycetales|f__Micrococcaceae	9.23677	7.92716
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Actinomycetales|f__Micrococcaceae|g__Micrococcus	9.23677	7.92716
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Actinomycetales|f__Micrococcaceae|g__Micrococcus|s__Micrococcus_luteus	9.23677	7.92716
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Actinomycetales|f__Micrococcaceae|g__Micrococcus|s__Micrococcus_luteus|t__Micrococcus_luteus_unclassified	9.23677	7.92716
+k__Bacteria|p__Proteobacteria	90.76323	92.07284
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	90.76323	92.07284
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales	90.76323	92.07284
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae	90.76323	92.07284
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Enhydrobacter	90.76323	92.07284
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Enhydrobacter|s__Enhydrobacter_aerosaccus	90.76323	92.07284
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Enhydrobacter|s__Enhydrobacter_aerosaccus|t__GCF_000175915	90.76323	92.07284
