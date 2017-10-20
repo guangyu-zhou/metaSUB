@@ -1,0 +1,1192 @@
+➜  scripts rscript name2taxaID.R
+
+Retrieving data for taxon 'Staphylococcus phage 80alpha'
+
+[1] 1
+                          name         rank      id
+1                      Viruses superkingdom   10239
+2  dsDNA viruses, no RNA stage      no rank   35237
+3                 Caudovirales        order   28883
+4                 Siphoviridae       family   10699
+5                  Phietavirus        genus 1623298
+6 Staphylococcus virus 80alpha      species   53369
+
+Retrieving data for taxon 'Corynebacterium sp KPL1986'
+
+[1] 2
+                         name         rank      id
+1          cellular organisms      no rank  131567
+2                    Bacteria superkingdom       2
+3         Terrabacteria group      no rank 1783272
+4              Actinobacteria       phylum  201174
+5              Actinobacteria        class    1760
+6           Corynebacteriales        order   85007
+7          Corynebacteriaceae       family    1653
+8             Corynebacterium        genus    1716
+9 Corynebacterium sp. KPL1986      species 1203619
+
+Retrieving data for taxon 'Paenibacillus sp PAMC 26794'
+
+[1] 3
+                          name         rank      id
+1           cellular organisms      no rank  131567
+2                     Bacteria superkingdom       2
+3          Terrabacteria group      no rank 1783272
+4                   Firmicutes       phylum    1239
+5                      Bacilli        class   91061
+6                   Bacillales        order    1385
+7             Paenibacillaceae       family  186822
+8                Paenibacillus        genus   44249
+9 Paenibacillus sp. PAMC 26794      species 1257080
+
+Retrieving data for taxon 'Carnobacterium sp WN1359'
+
+[1] 4
+                                          name         rank      id
+1                           cellular organisms      no rank  131567
+2                                     Bacteria superkingdom       2
+3                          Terrabacteria group      no rank 1783272
+4                                   Firmicutes       phylum    1239
+5                                      Bacilli        class   91061
+6                              Lactobacillales        order  186826
+7                            Carnobacteriaceae       family  186828
+8                               Carnobacterium        genus    2747
+9                      Carnobacterium inhibens      species  147709
+10 Carnobacterium inhibens subsp. gilichinskyi   subspecies 1266845
+
+Retrieving data for taxon 'Pseudomonas sp HPB0071'
+
+[1] 5
+                     name         rank      id
+1      cellular organisms      no rank  131567
+2                Bacteria superkingdom       2
+3          Proteobacteria       phylum    1224
+4     Gammaproteobacteria        class    1236
+5         Pseudomonadales        order   72274
+6        Pseudomonadaceae       family  135621
+7             Pseudomonas        genus     286
+8 Pseudomonas sp. HPB0071      species 1203578
+
+Retrieving data for taxon 'Erysipelotrichaceae bacterium 6 1 45'
+
+[1] 6
+                                               name         rank      id
+1                                cellular organisms      no rank  131567
+2                                          Bacteria superkingdom       2
+3                               Terrabacteria group      no rank 1783272
+4                                        Firmicutes       phylum    1239
+5                                  Erysipelotrichia        class  526524
+6                                Erysipelotrichales        order  526525
+7                               Erysipelotrichaceae       family  128827
+8                  unclassified Erysipelotrichaceae      no rank  433334
+9  unclassified Erysipelotrichaceae (miscellaneous)      no rank  544447
+10             Erysipelotrichaceae bacterium 6_1_45      species  469614
+
+Retrieving data for taxon 'Streptococcus tigurinus'
+
+[1] 7
+                                    name         rank      id
+1                     cellular organisms      no rank  131567
+2                               Bacteria superkingdom       2
+3                    Terrabacteria group      no rank 1783272
+4                             Firmicutes       phylum    1239
+5                                Bacilli        class   91061
+6                        Lactobacillales        order  186826
+7                       Streptococcaceae       family    1300
+8                          Streptococcus        genus    1301
+9                   Streptococcus oralis      species    1303
+10 Streptococcus oralis subsp. tigurinus   subspecies 1077464
+
+Retrieving data for taxon 'Escherichia hermannii'
+
+[1] 8
+                     name         rank      id
+1      cellular organisms      no rank  131567
+2                Bacteria superkingdom       2
+3          Proteobacteria       phylum    1224
+4     Gammaproteobacteria        class    1236
+5        Enterobacterales        order   91347
+6      Enterobacteriaceae       family     543
+7           Atlantibacter        genus 1903434
+8 Atlantibacter hermannii      species     565
+
+Retrieving data for taxon 'Staphylococcus phage phiETA2'
+
+[1] 9
+                          name         rank      id
+1                      Viruses superkingdom   10239
+2  dsDNA viruses, no RNA stage      no rank   35237
+3                 Caudovirales        order   28883
+4                 Siphoviridae       family   10699
+5                  Phietavirus        genus 1623298
+6 Staphylococcus virus phiETA2      species  326036
+
+Retrieving data for taxon 'Flavobacteriaceae bacterium 3519 10'
+
+[1] 10
+                                  name         rank      id
+1                   cellular organisms      no rank  131567
+2                             Bacteria superkingdom       2
+3                            FCB group      no rank 1783270
+4         Bacteroidetes/Chlorobi group      no rank   68336
+5                        Bacteroidetes       phylum     976
+6                       Flavobacteriia        class  117743
+7                     Flavobacteriales        order  200644
+8                    Flavobacteriaceae       family   49546
+9       unclassified Flavobacteriaceae      no rank   61432
+10 Flavobacteriaceae bacterium 3519-10      species  531844
+
+Retrieving data for taxon 'Propionibacterium avidum'
+
+[1] 11
+                  name         rank      id
+1   cellular organisms      no rank  131567
+2             Bacteria superkingdom       2
+3  Terrabacteria group      no rank 1783272
+4       Actinobacteria       phylum  201174
+5       Actinobacteria        class    1760
+6  Propionibacteriales        order   85009
+7 Propionibacteriaceae       family   31957
+8        Cutibacterium        genus 1912216
+9 Cutibacterium avidum      species   33010
+
+
+Retrieving data for taxon 'Clostridium phytofermentans'
+
+[1] 12
+                               name         rank      id
+1                cellular organisms      no rank  131567
+2                          Bacteria superkingdom       2
+3               Terrabacteria group      no rank 1783272
+4                        Firmicutes       phylum    1239
+5                        Clostridia        class  186801
+6                     Clostridiales        order  186802
+7                   Lachnospiraceae       family  186803
+8                 Lachnoclostridium        genus 1506553
+9 Lachnoclostridium phytofermentans      species   66219
+
+Retrieving data for taxon 'Staphylococcus caprae capitis'
+
+Not found. Consider checking the spelling or alternate classification
+[1] 13
+  taxize::classification(taxize::get_uid(organism), db = "ncbi")[[1]]
+1                                                                  NA
+
+Retrieving data for taxon 'Clostridium sordellii'
+
+[1] 14
+                        name         rank      id
+1         cellular organisms      no rank  131567
+2                   Bacteria superkingdom       2
+3        Terrabacteria group      no rank 1783272
+4                 Firmicutes       phylum    1239
+5                 Clostridia        class  186801
+6              Clostridiales        order  186802
+7      Peptostreptococcaceae       family  186804
+8           Paeniclostridium        genus 1849828
+9 Paeniclostridium sordellii      species    1505
+
+Retrieving data for taxon 'Mulikevirus'
+
+[1] 15
+                         name         rank     id
+1                     Viruses superkingdom  10239
+2 dsDNA viruses, no RNA stage      no rank  35237
+3                Caudovirales        order  28883
+4                  Myoviridae       family  10662
+5                     Muvirus        genus 186777
+
+Retrieving data for taxon 'Propionibacterium acidipropionici'
+
+[1] 16
+                                    name         rank      id
+1                     cellular organisms      no rank  131567
+2                               Bacteria superkingdom       2
+3                    Terrabacteria group      no rank 1783272
+4                         Actinobacteria       phylum  201174
+5                         Actinobacteria        class    1760
+6                    Propionibacteriales        order   85009
+7                   Propionibacteriaceae       family   31957
+8                 Acidipropionibacterium        genus 1912215
+9 Acidipropionibacterium acidipropionici      species    1748
+
+Retrieving data for taxon 'Arthrobacter chlorophenolicus'
+
+[1] 17
+                                name         rank      id
+1                 cellular organisms      no rank  131567
+2                           Bacteria superkingdom       2
+3                Terrabacteria group      no rank 1783272
+4                     Actinobacteria       phylum  201174
+5                     Actinobacteria        class    1760
+6                      Micrococcales        order   85006
+7                     Micrococcaceae       family    1268
+8                  Pseudarthrobacter        genus 1742993
+9 Pseudarthrobacter chlorophenolicus      species   85085
+
+Retrieving data for taxon 'Pseudochrobactrum sp AO18b'
+
+[1] 18
+                         name         rank      id
+1          cellular organisms      no rank  131567
+2                    Bacteria superkingdom       2
+3              Proteobacteria       phylum    1224
+4         Alphaproteobacteria        class   28211
+5                 Rhizobiales        order     356
+6                Brucellaceae       family  118882
+7           Pseudochrobactrum        genus  354349
+8 Pseudochrobactrum sp. AO18b      species 1201036
+
+Retrieving data for taxon 'Clostridium hathewayi'
+
+[1] 19
+                  name         rank      id
+1   cellular organisms      no rank  131567
+2             Bacteria superkingdom       2
+3  Terrabacteria group      no rank 1783272
+4           Firmicutes       phylum    1239
+5           Clostridia        class  186801
+6        Clostridiales        order  186802
+7       Clostridiaceae       family   31979
+8           Hungatella        genus 1649459
+9 Hungatella hathewayi      species  154046
+
+Retrieving data for taxon 'Arthrobacter arilaitensis'
+
+[1] 20
+                          name         rank      id
+1           cellular organisms      no rank  131567
+2                     Bacteria superkingdom       2
+3          Terrabacteria group      no rank 1783272
+4               Actinobacteria       phylum  201174
+5               Actinobacteria        class    1760
+6                Micrococcales        order   85006
+7               Micrococcaceae       family    1268
+8              Glutamicibacter        genus 1742989
+9 Glutamicibacter arilaitensis      species  256701
+
+Retrieving data for taxon 'Ochrobactrum sp CDB2'
+
+[1] 21
+                   name         rank     id
+1    cellular organisms      no rank 131567
+2              Bacteria superkingdom      2
+3        Proteobacteria       phylum   1224
+4   Alphaproteobacteria        class  28211
+5           Rhizobiales        order    356
+6          Brucellaceae       family 118882
+7          Ochrobactrum        genus    528
+8 Ochrobactrum sp. CDB2      species 360313
+
+Retrieving data for taxon 'Clostridium acidurici'
+
+[1] 22
+                    name         rank      id
+1     cellular organisms      no rank  131567
+2               Bacteria superkingdom       2
+3    Terrabacteria group      no rank 1783272
+4             Firmicutes       phylum    1239
+5           Tissierellia        class 1737404
+6         Tissierellales        order 1737405
+7       Gottschalkiaceae       family 2042895
+8           Gottschalkia        genus 1505664
+9 Gottschalkia acidurici      species    1556
+
+Retrieving data for taxon 'Ruminococcus obeum'
+
+[1] 23
+                 name         rank      id
+1  cellular organisms      no rank  131567
+2            Bacteria superkingdom       2
+3 Terrabacteria group      no rank 1783272
+4          Firmicutes       phylum    1239
+5          Clostridia        class  186801
+6       Clostridiales        order  186802
+7     Lachnospiraceae       family  186803
+8             Blautia        genus  572511
+9       Blautia obeum      species   40520
+
+Retrieving data for taxon 'Stenotrophomonas phage phiSMA7'
+
+[1] 24
+                         name         rank      id
+1                     Viruses superkingdom   10239
+2               ssDNA viruses      no rank   29258
+3                  Inoviridae       family   10860
+4       unassigned Inoviridae      no rank 1977138
+5 Stenotrophomonas virus SMA7      species 2011079
+6 Stenotrophomonas phage SMA7      no rank 1343494
+
+Retrieving data for taxon 'Clostridiales bacterium 1 7 47FAA'
+
+[1] 25
+                                        name         rank      id
+1                         cellular organisms      no rank  131567
+2                                   Bacteria superkingdom       2
+3                        Terrabacteria group      no rank 1783272
+4                                 Firmicutes       phylum    1239
+5                                 Clostridia        class  186801
+6                              Clostridiales        order  186802
+7                 unclassified Clostridiales      no rank  186813
+8 unclassified Clostridiales (miscellaneous)      no rank   39779
+9          Clostridiales bacterium 1_7_47FAA      species  457421
+
+Retrieving data for taxon 'Propionibacterium phage P14 4'
+
+[1] 26
+                           name         rank      id
+1                       Viruses superkingdom   10239
+2   dsDNA viruses, no RNA stage      no rank   35237
+3                  Caudovirales        order   28883
+4                  Siphoviridae       family   10699
+5                      Pa6virus        genus 1982251
+6  Propionibacterium virus P144      species 1982262
+7 Propionibacterium phage P14.4      no rank 1229784
+
+Retrieving data for taxon 'Exiguobacterium pavilionensis'
+
+[1] 27
+                                    name         rank      id
+1                     cellular organisms      no rank  131567
+2                               Bacteria superkingdom       2
+3                    Terrabacteria group      no rank 1783272
+4                             Firmicutes       phylum    1239
+5                                Bacilli        class   91061
+6                             Bacillales        order    1385
+7              Bacillales incertae sedis      no rank  539002
+8  Bacillales Family XII. Incertae Sedis      no rank  539742
+9                        Exiguobacterium        genus   33986
+10           Exiguobacterium chiriqhucha      species 1385984
+
+Retrieving data for taxon 'PhiCD119likevirus'
+
+[1] 28
+                         name         rank      id
+1                     Viruses superkingdom   10239
+2 dsDNA viruses, no RNA stage      no rank   35237
+3                Caudovirales        order   28883
+4                  Myoviridae       family   10662
+5                  Cd119virus        genus 1912144
+
+Retrieving data for taxon 'Pseudomonas denitrificans'
+
+[1] 29
+                                           name          rank     id
+1                            cellular organisms       no rank 131567
+2                                      Bacteria  superkingdom      2
+3                                Proteobacteria        phylum   1224
+4                           Gammaproteobacteria         class   1236
+5                               Pseudomonadales         order  72274
+6                              Pseudomonadaceae        family 135621
+7                                   Pseudomonas         genus    286
+8               Pseudomonas pertucinogena group species group 136844
+9 Pseudomonas denitrificans (nomen rejiciendum)       species  43306
+
+Retrieving data for taxon 'Eubacterium eligens'
+
+[1] 30
+                   name         rank      id
+1    cellular organisms      no rank  131567
+2              Bacteria superkingdom       2
+3   Terrabacteria group      no rank 1783272
+4            Firmicutes       phylum    1239
+5            Clostridia        class  186801
+6         Clostridiales        order  186802
+7        Eubacteriaceae       family  186806
+8           Eubacterium        genus    1730
+9 [Eubacterium] eligens      species   39485
+
+Retrieving data for taxon 'Acinetobacter pittii calcoaceticus nosocomialis'
+
+Not found. Consider checking the spelling or alternate classification
+[1] 31
+  taxize::classification(taxize::get_uid(organism), db = "ncbi")[[1]]
+1                                                                  NA
+
+Retrieving data for taxon 'Microbacterium sp TS 1'
+
+[1] 32
+                     name         rank      id
+1      cellular organisms      no rank  131567
+2                Bacteria superkingdom       2
+3     Terrabacteria group      no rank 1783272
+4          Actinobacteria       phylum  201174
+5          Actinobacteria        class    1760
+6           Micrococcales        order   85006
+7       Microbacteriaceae       family   85023
+8          Microbacterium        genus   33882
+9 Microbacterium sp. TS-1      species 1344956
+
+Retrieving data for taxon 'P22likevirus'
+
+[1] 33
+                         name         rank     id
+1                     Viruses superkingdom  10239
+2 dsDNA viruses, no RNA stage      no rank  35237
+3                Caudovirales        order  28883
+4                 Podoviridae       family  10744
+5                    P22virus        genus 186794
+
+Retrieving data for taxon 'Rhizobium phage RR1 B'
+
+[1] 34
+                         name         rank     id
+1                     Viruses superkingdom  10239
+2 dsDNA viruses, no RNA stage      no rank  35237
+3                Caudovirales        order  28883
+4                  Myoviridae       family  10662
+5     unclassified Myoviridae      no rank 196896
+6       Rhizobium phage RR1-B      species 929834
+
+Retrieving data for taxon 'Rhizobium phage RR1 A'
+
+[1] 35
+                         name         rank     id
+1                     Viruses superkingdom  10239
+2 dsDNA viruses, no RNA stage      no rank  35237
+3                Caudovirales        order  28883
+4                  Myoviridae       family  10662
+5     unclassified Myoviridae      no rank 196896
+6       Rhizobium phage RR1-A      species 929833
+
+Retrieving data for taxon 'Enterobacteria phage HK97'
+
+[1] 36
+                         name         rank     id
+1                     Viruses superkingdom  10239
+2 dsDNA viruses, no RNA stage      no rank  35237
+3                Caudovirales        order  28883
+4                Siphoviridae       family  10699
+5                 Lambdavirus        genus 186765
+6      Escherichia virus HK97      species  37554
+
+Retrieving data for taxon 'Bacillus sp JC63'
+
+[1] 37
+                 name         rank      id
+1  cellular organisms      no rank  131567
+2            Bacteria superkingdom       2
+3 Terrabacteria group      no rank 1783272
+4          Firmicutes       phylum    1239
+5             Bacilli        class   91061
+6          Bacillales        order    1385
+7         Bacillaceae       family  186817
+8            Bacillus        genus    1386
+9   Bacillus sp. JC63      species  660997
+
+Retrieving data for taxon 'Propionibacterium phage P100 A'
+
+[1] 38
+                            name         rank      id
+1                        Viruses superkingdom   10239
+2    dsDNA viruses, no RNA stage      no rank   35237
+3                   Caudovirales        order   28883
+4                   Siphoviridae       family   10699
+5                       Pa6virus        genus 1982251
+6  Propionibacterium virus P100A      species 1982265
+7 Propionibacterium phage P100_A      no rank 1229790
+
+Retrieving data for taxon 'Epsilon15likevirus'
+
+[1] 39
+                         name         rank     id
+1                     Viruses superkingdom  10239
+2 dsDNA viruses, no RNA stage      no rank  35237
+3                Caudovirales        order  28883
+4                 Podoviridae       family  10744
+5              Epsilon15virus        genus 542960
+
+Retrieving data for taxon 'C2likevirus'
+
+[1] 40
+                         name         rank     id
+1                     Viruses superkingdom  10239
+2 dsDNA viruses, no RNA stage      no rank  35237
+3                Caudovirales        order  28883
+4                Siphoviridae       family  10699
+5                     C2virus        genus 186532
+
+Retrieving data for taxon 'Peptostreptococcaceae noname'
+
+Not found. Consider checking the spelling or alternate classification
+[1] 41
+  taxize::classification(taxize::get_uid(organism), db = "ncbi")[[1]]
+1                                                                  NA
+
+Retrieving data for taxon 'Sanguibacter sp JC301'
+
+[1] 42
+                          name         rank      id
+1           cellular organisms      no rank  131567
+2                     Bacteria superkingdom       2
+3          Terrabacteria group      no rank 1783272
+4               Actinobacteria       phylum  201174
+5               Actinobacteria        class    1760
+6                Micrococcales        order   85006
+7                    Timonella        genus 1465824
+8       Timonella senegalensis      species 1465825
+9 Timonella senegalensis JC301      no rank 1095772
+
+Retrieving data for taxon 'Clostridium bifermentans'
+
+[1] 43
+                          name         rank      id
+1           cellular organisms      no rank  131567
+2                     Bacteria superkingdom       2
+3          Terrabacteria group      no rank 1783272
+4                   Firmicutes       phylum    1239
+5                   Clostridia        class  186801
+6                Clostridiales        order  186802
+7        Peptostreptococcaceae       family  186804
+8              Paraclostridium        genus 1849822
+9 Paraclostridium bifermentans      species    1490
+
+Retrieving data for taxon 'Rhizobium lupini'
+
+[1] 44
+                   name         rank     id
+1    cellular organisms      no rank 131567
+2              Bacteria superkingdom      2
+3        Proteobacteria       phylum   1224
+4   Alphaproteobacteria        class  28211
+5           Rhizobiales        order    356
+6     Bradyrhizobiaceae       family  41294
+7        Bradyrhizobium        genus    374
+8 Bradyrhizobium lupini      species 136996
+
+Retrieving data for taxon 'Acinetobacter sp TG2027'
+
+[1] 45
+                      name         rank      id
+1       cellular organisms      no rank  131567
+2                 Bacteria superkingdom       2
+3           Proteobacteria       phylum    1224
+4      Gammaproteobacteria        class    1236
+5          Pseudomonadales        order   72274
+6            Moraxellaceae       family     468
+7            Acinetobacter        genus     469
+8 Acinetobacter sp. TG2027      species 1221304
+
+Retrieving data for taxon 'Enterobacter aerogenes'
+
+[1] 46
+                  name         rank     id
+1   cellular organisms      no rank 131567
+2             Bacteria superkingdom      2
+3       Proteobacteria       phylum   1224
+4  Gammaproteobacteria        class   1236
+5     Enterobacterales        order  91347
+6   Enterobacteriaceae       family    543
+7           Klebsiella        genus    570
+8 Klebsiella aerogenes      species    548
+
+Retrieving data for taxon 'Bacillus cereus thuringiensis'
+
+Not found. Consider checking the spelling or alternate classification
+[1] 47
+  taxize::classification(taxize::get_uid(organism), db = "ncbi")[[1]]
+1                                                                  NA
+
+Retrieving data for taxon 'Propionibacterium acnes'
+
+[1] 48
+                  name         rank      id
+1   cellular organisms      no rank  131567
+2             Bacteria superkingdom       2
+3  Terrabacteria group      no rank 1783272
+4       Actinobacteria       phylum  201174
+5       Actinobacteria        class    1760
+6  Propionibacteriales        order   85009
+7 Propionibacteriaceae       family   31957
+8        Cutibacterium        genus 1912216
+9  Cutibacterium acnes      species    1747
+
+Retrieving data for taxon 'Eubacterium hallii'
+
+[1] 49
+                  name         rank      id
+1   cellular organisms      no rank  131567
+2             Bacteria superkingdom       2
+3  Terrabacteria group      no rank 1783272
+4           Firmicutes       phylum    1239
+5           Clostridia        class  186801
+6        Clostridiales        order  186802
+7       Eubacteriaceae       family  186806
+8          Eubacterium        genus    1730
+9 [Eubacterium] hallii      species   39488
+
+Retrieving data for taxon 'Pseudomonas geniculata'
+
+[1] 50
+                           name         rank     id
+1            cellular organisms      no rank 131567
+2                      Bacteria superkingdom      2
+3                Proteobacteria       phylum   1224
+4           Gammaproteobacteria        class   1236
+5               Xanthomonadales        order 135614
+6              Xanthomonadaceae       family  32033
+7 unclassified Xanthomonadaceae      no rank 191676
+8      [Pseudomonas] geniculata      species  86188
+
+Retrieving data for taxon 'Exiguobacterium sp MH3'
+
+[1] 51
+                                    name         rank      id
+1                     cellular organisms      no rank  131567
+2                               Bacteria superkingdom       2
+3                    Terrabacteria group      no rank 1783272
+4                             Firmicutes       phylum    1239
+5                                Bacilli        class   91061
+6                             Bacillales        order    1385
+7              Bacillales incertae sedis      no rank  539002
+8  Bacillales Family XII. Incertae Sedis      no rank  539742
+9                        Exiguobacterium        genus   33986
+10               Exiguobacterium sp. MH3      species 1399115
+
+Retrieving data for taxon 'Enterobacteriaceae bacterium 9 2 54FAA'
+
+[1] 52
+                                             name         rank     id
+1                              cellular organisms      no rank 131567
+2                                        Bacteria superkingdom      2
+3                                  Proteobacteria       phylum   1224
+4                             Gammaproteobacteria        class   1236
+5                                Enterobacterales        order  91347
+6                              Enterobacteriaceae       family    543
+7                 unclassified Enterobacteriaceae      no rank 191675
+8 unclassified Enterobacteriaceae (miscellaneous)      no rank  36866
+9          Enterobacteriaceae bacterium 9_2_54FAA      species 469613
+
+Retrieving data for taxon 'Pseudomonas sp TJI 51'
+
+[1] 53
+                    name         rank     id
+1     cellular organisms      no rank 131567
+2               Bacteria superkingdom      2
+3         Proteobacteria       phylum   1224
+4    Gammaproteobacteria        class   1236
+5        Pseudomonadales        order  72274
+6       Pseudomonadaceae       family 135621
+7            Pseudomonas        genus    286
+8 Pseudomonas sp. TJI-51      species 985010
+
+Retrieving data for taxon 'Staphylococcus phage YMC 09 04 R1988'
+
+Not found. Consider checking the spelling or alternate classification
+[1] 54
+  taxize::classification(taxize::get_uid(organism), db = "ncbi")[[1]]
+1                                                                  NA
+
+Retrieving data for taxon 'Enterobacter sp MGH 25'
+
+[1] 55
+                          name          rank      id
+1           cellular organisms       no rank  131567
+2                     Bacteria  superkingdom       2
+3               Proteobacteria        phylum    1224
+4          Gammaproteobacteria         class    1236
+5             Enterobacterales         order   91347
+6           Enterobacteriaceae        family     543
+7                 Enterobacter         genus     547
+8 Enterobacter cloacae complex species group  354276
+9      Enterobacter sp. MGH 25       species 1329829
+
+Retrieving data for taxon 'Arthrobacter sp PAO19'
+
+[1] 56
+                    name         rank      id
+1     cellular organisms      no rank  131567
+2               Bacteria superkingdom       2
+3    Terrabacteria group      no rank 1783272
+4         Actinobacteria       phylum  201174
+5         Actinobacteria        class    1760
+6          Micrococcales        order   85006
+7         Micrococcaceae       family    1268
+8           Arthrobacter        genus    1663
+9 Arthrobacter sp. PAO19      species 1096756
+
+Retrieving data for taxon 'Polyomavirus HPyV6'
+
+[1] 57
+                         name         rank      id
+1                     Viruses superkingdom   10239
+2 dsDNA viruses, no RNA stage      no rank   35237
+3              Polyomaviridae       family  151341
+4           Deltapolyomavirus        genus 1891715
+5        Human polyomavirus 6      species  746830
+
+Retrieving data for taxon 'Exiguobacterium sp AT1b'
+
+[1] 58
+                                    name         rank      id
+1                     cellular organisms      no rank  131567
+2                               Bacteria superkingdom       2
+3                    Terrabacteria group      no rank 1783272
+4                             Firmicutes       phylum    1239
+5                                Bacilli        class   91061
+6                             Bacillales        order    1385
+7              Bacillales incertae sedis      no rank  539002
+8  Bacillales Family XII. Incertae Sedis      no rank  539742
+9                        Exiguobacterium        genus   33986
+10              Exiguobacterium sp. AT1b      species  360911
+
+Retrieving data for taxon 'Clostridium glycolicum'
+
+[1] 59
+                         name         rank      id
+1          cellular organisms      no rank  131567
+2                    Bacteria superkingdom       2
+3         Terrabacteria group      no rank 1783272
+4                  Firmicutes       phylum    1239
+5                  Clostridia        class  186801
+6               Clostridiales        order  186802
+7       Peptostreptococcaceae       family  186804
+8            Terrisporobacter        genus 1505652
+9 Terrisporobacter glycolicus      species   36841
+
+Retrieving data for taxon 'Clostridium difficile'
+
+[1] 60
+                      name         rank      id
+1       cellular organisms      no rank  131567
+2                 Bacteria superkingdom       2
+3      Terrabacteria group      no rank 1783272
+4               Firmicutes       phylum    1239
+5               Clostridia        class  186801
+6            Clostridiales        order  186802
+7    Peptostreptococcaceae       family  186804
+8           Clostridioides        genus 1870884
+9 Clostridioides difficile      species    1496
+
+Retrieving data for taxon 'Halomonas sp GFAJ 1'
+
+[1] 61
+                  name         rank      id
+1   cellular organisms      no rank  131567
+2             Bacteria superkingdom       2
+3       Proteobacteria       phylum    1224
+4  Gammaproteobacteria        class    1236
+5    Oceanospirillales        order  135619
+6       Halomonadaceae       family   28256
+7            Halomonas        genus    2745
+8 Halomonas sp. GFAJ-1      species 1118153
+
+Retrieving data for taxon 'Clostridium sp 7 2 43FAA'
+
+[1] 62
+                       name         rank      id
+1        cellular organisms      no rank  131567
+2                  Bacteria superkingdom       2
+3       Terrabacteria group      no rank 1783272
+4                Firmicutes       phylum    1239
+5                Clostridia        class  186801
+6             Clostridiales        order  186802
+7            Clostridiaceae       family   31979
+8               Clostridium        genus    1485
+9 Clostridium sp. 7_2_43FAA      species  457396
+
+Retrieving data for taxon 'Enterobacter sp MGH 8'
+
+[1] 63
+                                                  name          rank      id
+1                                   cellular organisms       no rank  131567
+2                                             Bacteria  superkingdom       2
+3                                       Proteobacteria        phylum    1224
+4                                  Gammaproteobacteria         class    1236
+5                                     Enterobacterales         order   91347
+6                                   Enterobacteriaceae        family     543
+7                                         Enterobacter         genus     547
+8                         Enterobacter cloacae complex species group  354276
+9  Enterobacter cloacae complex 'Hoffmann cluster III'       species 1812934
+10                              Enterobacter sp. MGH 8       no rank 1329817
+
+Retrieving data for taxon 'Klebsiella sp MS 92 3'
+
+[1] 64
+                    name         rank     id
+1     cellular organisms      no rank 131567
+2               Bacteria superkingdom      2
+3         Proteobacteria       phylum   1224
+4    Gammaproteobacteria        class   1236
+5       Enterobacterales        order  91347
+6     Enterobacteriaceae       family    543
+7             Klebsiella        genus    570
+8 Klebsiella sp. MS 92-3      species 749535
+
+Retrieving data for taxon 'Sedimentibacter sp B4'
+
+[1] 65
+                       name         rank      id
+1        cellular organisms      no rank  131567
+2                  Bacteria superkingdom       2
+3       Terrabacteria group      no rank 1783272
+4                Firmicutes       phylum    1239
+5              Tissierellia        class 1737404
+6 unclassified Tissierellia      no rank 1737407
+7           Sedimentibacter        genus  190972
+8    Sedimentibacter sp. B4      species  304766
+
+Retrieving data for taxon 'Sphingobacterium sp IITKGP BTPF85'
+
+[1] 66
+                                 name         rank      id
+1                  cellular organisms      no rank  131567
+2                            Bacteria superkingdom       2
+3                           FCB group      no rank 1783270
+4        Bacteroidetes/Chlorobi group      no rank   68336
+5                       Bacteroidetes       phylum     976
+6                    Sphingobacteriia        class  117747
+7                  Sphingobacteriales        order  200666
+8                 Sphingobacteriaceae       family   84566
+9                    Sphingobacterium        genus   28453
+10 Sphingobacterium sp. IITKGP-BTPF85      species 1338009
+
+Retrieving data for taxon 'Staphylococcus sp AL1'
+
+[1] 67
+                    name         rank      id
+1     cellular organisms      no rank  131567
+2               Bacteria superkingdom       2
+3    Terrabacteria group      no rank 1783272
+4             Firmicutes       phylum    1239
+5                Bacilli        class   91061
+6             Bacillales        order    1385
+7      Staphylococcaceae       family   90964
+8         Staphylococcus        genus    1279
+9 Staphylococcus sp. AL1      species  861530
+
+Retrieving data for taxon 'Acetobacteraceae bacterium AT 5844'
+
+[1] 68
+                                name         rank      id
+1                 cellular organisms      no rank  131567
+2                           Bacteria superkingdom       2
+3                     Proteobacteria       phylum    1224
+4                Alphaproteobacteria        class   28211
+5                   Rhodospirillales        order  204441
+6                   Acetobacteraceae       family     433
+7      unclassified Acetobacteraceae      no rank   41293
+8 Acetobacteraceae bacterium AT-5844      species 1054213
+
+Retrieving data for taxon 'Bppunalikevirus'
+
+[1] 69
+                         name         rank     id
+1                     Viruses superkingdom  10239
+2 dsDNA viruses, no RNA stage      no rank  35237
+3                Caudovirales        order  28883
+4                 Podoviridae       family  10744
+5                   Bpp1virus        genus 542959
+
+Retrieving data for taxon 'Kurthia sp Dielmo'
+
+[1] 70
+                 name         rank      id
+1  cellular organisms      no rank  131567
+2            Bacteria superkingdom       2
+3 Terrabacteria group      no rank 1783272
+4          Firmicutes       phylum    1239
+5             Bacilli        class   91061
+6          Bacillales        order    1385
+7      Planococcaceae       family  186818
+8             Kurthia        genus    1649
+9  Kurthia sp. Dielmo      species 1033738
+
+Retrieving data for taxon 'Flavobacteria bacterium MS024 3C'
+
+[1] 71
+                              name         rank      id
+1               cellular organisms      no rank  131567
+2                         Bacteria superkingdom       2
+3                        FCB group      no rank 1783270
+4     Bacteroidetes/Chlorobi group      no rank   68336
+5                    Bacteroidetes       phylum     976
+6                   Flavobacteriia        class  117743
+7      unclassified Flavobacteriia      no rank  117744
+8 Flavobacteria bacterium MS024-3C      species  487797
+
+Retrieving data for taxon 'Enterobacteria phage Min27'
+
+[1] 72
+                         name         rank      id
+1                     Viruses superkingdom   10239
+2 dsDNA viruses, no RNA stage      no rank   35237
+3                Caudovirales        order   28883
+4                 Podoviridae       family   10744
+5                  Sepvirinae    subfamily 1981156
+6                 Nona33virus        genus 1981157
+7     Escherichia virus Min27      species 1981162
+8     Escherichia phage Min27      no rank  489779
+
+Retrieving data for taxon 'Psychrobacter sp 1501 2011'
+
+[1] 73
+                          name         rank      id
+1           cellular organisms      no rank  131567
+2                     Bacteria superkingdom       2
+3               Proteobacteria       phylum    1224
+4          Gammaproteobacteria        class    1236
+5              Pseudomonadales        order   72274
+6                Moraxellaceae       family     468
+7                Psychrobacter        genus     497
+8 Psychrobacter sp. 1501(2011)      species 1002339
+
+Retrieving data for taxon 'Rhodococcus sp R04'
+
+[1] 74
+                 name         rank      id
+1  cellular organisms      no rank  131567
+2            Bacteria superkingdom       2
+3 Terrabacteria group      no rank 1783272
+4      Actinobacteria       phylum  201174
+5      Actinobacteria        class    1760
+6   Corynebacteriales        order   85007
+7        Nocardiaceae       family   85025
+8         Rhodococcus        genus    1827
+9 Rhodococcus sp. R04      species  374846
+
+Retrieving data for taxon 'Staphylococcus phage 3A'
+
+[1] 75
+                         name         rank      id
+1                     Viruses superkingdom   10239
+2 dsDNA viruses, no RNA stage      no rank   35237
+3                Caudovirales        order   28883
+4                Siphoviridae       family   10699
+5                   Triavirus        genus 1623273
+6     Staphylococcus virus 3a      species  215167
+
+Retrieving data for taxon 'Eubacterium rectale'
+
+[1] 76
+                          name         rank      id
+1           cellular organisms      no rank  131567
+2                     Bacteria superkingdom       2
+3          Terrabacteria group      no rank 1783272
+4                   Firmicutes       phylum    1239
+5                   Clostridia        class  186801
+6                Clostridiales        order  186802
+7              Lachnospiraceae       family  186803
+8 unclassified Lachnospiraceae      no rank  186928
+9        [Eubacterium] rectale      species   39491
+
+Retrieving data for taxon 'Clostridium sticklandii'
+
+[1] 77
+                         name         rank      id
+1          cellular organisms      no rank  131567
+2                    Bacteria superkingdom       2
+3         Terrabacteria group      no rank 1783272
+4                  Firmicutes       phylum    1239
+5                  Clostridia        class  186801
+6               Clostridiales        order  186802
+7       Peptostreptococcaceae       family  186804
+8             Acetoanaerobium        genus  186831
+9 Acetoanaerobium sticklandii      species    1511
+
+Retrieving data for taxon 'Staphylococcus sp E463'
+
+[1] 78
+                     name         rank      id
+1      cellular organisms      no rank  131567
+2                Bacteria superkingdom       2
+3     Terrabacteria group      no rank 1783272
+4              Firmicutes       phylum    1239
+5                 Bacilli        class   91061
+6              Bacillales        order    1385
+7       Staphylococcaceae       family   90964
+8          Staphylococcus        genus    1279
+9 Staphylococcus sp. E463      species 1234593
+
+Retrieving data for taxon 'Acinetobacter sp ATCC 27244'
+
+[1] 79
+                          name         rank     id
+1           cellular organisms      no rank 131567
+2                     Bacteria superkingdom      2
+3               Proteobacteria       phylum   1224
+4          Gammaproteobacteria        class   1236
+5              Pseudomonadales        order  72274
+6                Moraxellaceae       family    468
+7                Acinetobacter        genus    469
+8 Acinetobacter sp. ATCC 27244      species 525244
+
+Retrieving data for taxon 'Dermacoccus sp Ellin185'
+
+[1] 80
+                      name         rank      id
+1       cellular organisms      no rank  131567
+2                 Bacteria superkingdom       2
+3      Terrabacteria group      no rank 1783272
+4           Actinobacteria       phylum  201174
+5           Actinobacteria        class    1760
+6            Micrococcales        order   85006
+7           Dermacoccaceae       family  145357
+8              Dermacoccus        genus   57495
+9 Dermacoccus sp. Ellin185      species  188626
+
+Retrieving data for taxon 'Bacillus isronensis'
+
+[1] 81
+                     name         rank      id
+1      cellular organisms      no rank  131567
+2                Bacteria superkingdom       2
+3     Terrabacteria group      no rank 1783272
+4              Firmicutes       phylum    1239
+5                 Bacilli        class   91061
+6              Bacillales        order    1385
+7          Planococcaceae       family  186818
+8            Solibacillus        genus  648800
+9 Solibacillus isronensis      species  412383
+
+Retrieving data for taxon 'Ruminococcus torques'
+
+[1] 82
+                    name         rank      id
+1     cellular organisms      no rank  131567
+2               Bacteria superkingdom       2
+3    Terrabacteria group      no rank 1783272
+4             Firmicutes       phylum    1239
+5             Clostridia        class  186801
+6          Clostridiales        order  186802
+7        Lachnospiraceae       family  186803
+8                Blautia        genus  572511
+9 [Ruminococcus] torques      species   33039
+
+Retrieving data for taxon 'Stenotrophomonas phage phiSMA9'
+
+[1] 83
+                         name         rank      id
+1                     Viruses superkingdom   10239
+2               ssDNA viruses      no rank   29258
+3                  Inoviridae       family   10860
+4       unassigned Inoviridae      no rank 1977138
+5 Stenotrophomonas virus SMA9      species 2011080
+6 Stenotrophomonas phage SMA9      no rank  334856
+
+Retrieving data for taxon 'Clostridium papyrosolvens'
+
+[1] 84
+                         name         rank      id
+1          cellular organisms      no rank  131567
+2                    Bacteria superkingdom       2
+3         Terrabacteria group      no rank 1783272
+4                  Firmicutes       phylum    1239
+5                  Clostridia        class  186801
+6               Clostridiales        order  186802
+7             Ruminococcaceae       family  541000
+8           Ruminiclostridium        genus 1508657
+9 [Clostridium] papyrosolvens      species   29362
+
+Retrieving data for taxon 'Lactobacillus casei paracasei'
+
+Not found. Consider checking the spelling or alternate classification
+[1] 85
+  taxize::classification(taxize::get_uid(organism), db = "ncbi")[[1]]
+1                                                                  NA
+
+Retrieving data for taxon 'Pepper yellow dwarf virus New Mexico'
+
+[1] 86
+                                    name         rank     id
+1                                Viruses superkingdom  10239
+2                          ssDNA viruses      no rank  29258
+3                          Geminiviridae       family  10811
+4                             Curtovirus        genus  10813
+5                   Beet curly top virus      species  10840
+6 Pepper yellow dwarf virus - New Mexico      no rank 554667
+
+Retrieving data for taxon 'Staphylococcus phage tp310 2'
+
+[1] 87
+                          name         rank     id
+1                      Viruses superkingdom  10239
+2  dsDNA viruses, no RNA stage      no rank  35237
+3                 Caudovirales        order  28883
+4                 Siphoviridae       family  10699
+5    unclassified Siphoviridae      no rank 196894
+6 Staphylococcus phage tp310-2      species 445516
+
+Retrieving data for taxon 'Clostridium termitidis'
+
+[1] 88
+                      name         rank      id
+1       cellular organisms      no rank  131567
+2                 Bacteria superkingdom       2
+3      Terrabacteria group      no rank 1783272
+4               Firmicutes       phylum    1239
+5               Clostridia        class  186801
+6            Clostridiales        order  186802
+7          Ruminococcaceae       family  541000
+8        Ruminiclostridium        genus 1508657
+9 [Clostridium] termitidis      species   29371
+
+Retrieving data for taxon 'Propionibacterium granulosum'
+
+[1] 89
+                      name         rank      id
+1       cellular organisms      no rank  131567
+2                 Bacteria superkingdom       2
+3      Terrabacteria group      no rank 1783272
+4           Actinobacteria       phylum  201174
+5           Actinobacteria        class    1760
+6      Propionibacteriales        order   85009
+7     Propionibacteriaceae       family   31957
+8            Cutibacterium        genus 1912216
+9 Cutibacterium granulosum      species   33011
+
+Retrieving data for taxon 'Clostridium symbiosum'
+
+[1] 90
+                     name         rank      id
+1      cellular organisms      no rank  131567
+2                Bacteria superkingdom       2
+3     Terrabacteria group      no rank 1783272
+4              Firmicutes       phylum    1239
+5              Clostridia        class  186801
+6           Clostridiales        order  186802
+7         Lachnospiraceae       family  186803
+8       Lachnoclostridium        genus 1506553
+9 [Clostridium] symbiosum      species    1512
+
+Retrieving data for taxon 'Rhodobacteraceae noname'
+
+Not found. Consider checking the spelling or alternate classification
+[1] 91
+  taxize::classification(taxize::get_uid(organism), db = "ncbi")[[1]]
+1                                                                  NA
+
+Retrieving data for taxon 'Porcine type C oncovirus'
+
+[1] 92
+                             name         rank     id
+1                         Viruses superkingdom  10239
+2      Retro-transcribing viruses      no rank  35268
+3                    Retroviridae       family  11632
+4               Orthoretrovirinae    subfamily 327045
+5                 Gammaretrovirus        genus 153135
+6 Mammalian gammaretrovirus group      no rank 353212
+7   Replication competent viruses      no rank 353210
+8        Porcine type-C oncovirus      species 369960
+
+Retrieving data for taxon 'Streptococcus mitis oralis pneumoniae'
+
+Not found. Consider checking the spelling or alternate classification
+[1] 93
+  taxize::classification(taxize::get_uid(organism), db = "ncbi")[[1]]
+1                                                                  NA
+
+Retrieving data for taxon 'Rhodococcus equi'
+
+[1] 94
+                 name         rank      id
+1  cellular organisms      no rank  131567
+2            Bacteria superkingdom       2
+3 Terrabacteria group      no rank 1783272
+4      Actinobacteria       phylum  201174
+5      Actinobacteria        class    1760
+6   Corynebacteriales        order   85007
+7        Nocardiaceae       family   85025
+8         Rhodococcus        genus    1827
+9  Rhodococcus hoagii      species   43767
+➜  scripts

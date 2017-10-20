@@ -1,0 +1,373 @@
+[1] 1
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 2
+                        name    rank      id
+10 Elizabethkingia anophelis species 1117645
+[1] 3
+                 name    rank    id
+8 Delftia acidovorans species 80866
+[1] 4
+                name    rank   id
+9 Streptococcus suis species 1307
+[1] 5
+             name    rank  id
+8 Neisseria sicca species 490
+[1] 6
+                    name    rank     id
+6 Pseudomonas phage F116 species 280701
+[1] 7
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 8
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 9
+                      name    rank     id
+9 Desulfococcus oleovorans species 181663
+[1] 10
+                        name    rank    id
+9 Staphylococcus lugdunensis species 28035
+[1] 11
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 12
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 13
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 14
+                            name    rank     id
+9 Corynebacterium kroppenstedtii species 161879
+[1] 15
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 16
+                          name    rank    id
+9 Enterococcus saccharolyticus species 41997
+[1] 17
+              name    rank     id
+8 Brucella microti species 444163
+[1] 18
+                      name    rank   id
+16 Penicillium chrysogenum species 5076
+[1] 19
+                  name    rank  id
+10 Empedobacter brevis species 247
+[1] 20
+                name    rank   id
+9 Lactococcus lactis species 1358
+[1] 21
+                      name    rank  id
+8 Paracoccus denitrificans species 266
+[1] 22
+                          name    rank    id
+6 Staphylococcus virus 80alpha species 53369
+[1] 23
+                      name    rank    id
+9 Corynebacterium striatum species 43770
+[1] 24
+                    name    rank     id
+9 Staphylococcus equorum species 246432
+[1] 25
+               name    rank    id
+9 Pseudomonas fulva species 47880
+[1] 26
+                name    rank    id
+9 Veillonella dispar species 39778
+[1] 27
+              name    rank    id
+8 Massilia timonae species 47229
+[1] 28
+                   name    rank     id
+8 Acinetobacter indicus species 756892
+[1] 29
+                         name    rank      id
+9 Corynebacterium sp. KPL1986 species 1203619
+[1] 30
+                           name    rank      id
+6 Propionibacterium virus PAD20 species 1982271
+[1] 31
+                       name    rank   id
+9 Clostridium tyrobutyricum species 1519
+[1] 32
+                        name    rank    id
+8 Acinetobacter haemolyticus species 29430
+[1] 33
+                          name    rank      id
+9 Paenibacillus sp. PAMC 26794 species 1257080
+[1] 34
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 35
+                      name    rank     id
+8 Acinetobacter guillouiae species 106649
+[1] 36
+                              name    rank    id
+9 Corynebacterium pseudogenitalium species 38303
+[1] 37
+                     name    rank     id
+8 Pseudomonas taiwanensis species 470150
+[1] 38
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 39
+                  name    rank   id
+9 Lactobacillus brevis species 1580
+[1] 40
+                   name    rank   id
+17 Fusarium graminearum species 5518
+[1] 41
+                    name    rank     id
+9 Clostridium tunisiense species 219748
+[1] 42
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 43
+                name    rank   id
+9 Leuconostoc fallax species 1251
+[1] 44
+                      name    rank   id
+9 Lactobacillus helveticus species 1587
+[1] 45
+                     name    rank     id
+9 Carnobacterium inhibens species 147709
+[1] 46
+                       name    rank   id
+9 Lactobacillus delbrueckii species 1584
+[1] 47
+                         name    rank     id
+9 Oscillibacter valericigenes species 351091
+[1] 48
+                       name    rank   id
+9 Leuconostoc mesenteroides species 1245
+[1] 49
+                           name    rank      id
+6 Propionibacterium virus P104A species 1982268
+[1] 50
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 51
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 52
+                    name    rank   id
+8 Methanosarcina barkeri species 2208
+[1] 53
+                name    rank    id
+9 Enterococcus asini species 57732
+[1] 54
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 55
+                 name    rank  id
+8 Serratia marcescens species 615
+[1] 56
+                      name    rank   id
+9 Streptococcus agalactiae species 1311
+[1] 57
+                     name    rank    id
+9 Staphylococcus pasteuri species 45972
+[1] 58
+                                              name    rank     id
+9 Wolbachia endosymbiont of Culex quinquefasciatus species 263437
+[1] 59
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 60
+                         name    rank   id
+9 Staphylococcus haemolyticus species 1283
+[1] 61
+                          name    rank     id
+10 Paenibacillus riograndensis species 483937
+[1] 62
+                name    rank  id
+8 Klebsiella oxytoca species 571
+[1] 63
+                name    rank    id
+9 Enterococcus avium species 33945
+[1] 64
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 65
+                   name    rank  id
+8 Ochrobactrum anthropi species 529
+[1] 66
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 67
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 68
+                       name    rank   id
+9 Lactococcus raffinolactis species 1366
+[1] 69
+                   name    rank   id
+9 Gardnerella vaginalis species 2702
+[1] 70
+                    name    rank    id
+9 Streptococcus infantis species 68892
+[1] 71
+                     name    rank    id
+9 Enterococcus raffinosus species 71452
+[1] 72
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 73
+                             name    rank  id
+10 Elizabethkingia meningoseptica species 238
+[1] 74
+            name    rank      id
+8 Mesotoga prima species 1184387
+[1] 75
+                             name    rank     id
+6 Staphylococcus phage phi5967PVL species 874267
+[1] 76
+                     name    rank   id
+10 Bacillus licheniformis species 1402
+[1] 77
+                         name    rank   id
+11 Bacillus amyloliquefaciens species 1390
+[1] 78
+                     name    rank    id
+8 Acinetobacter johnsonii species 40214
+[1] 79
+            name    rank    id
+9 Rhizobium etli species 29449
+[1] 80
+                            name    rank  id
+8 Pseudoalteromonas haloplanktis species 228
+[1] 81
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 82
+                     name    rank      id
+8 Pseudomonas sp. HPB0071 species 1203578
+[1] 83
+                   name    rank  id
+9 Pseudomonas mendocina species 300
+[1] 84
+                                   name    rank     id
+10 Erysipelotrichaceae bacterium 6_1_45 species 469614
+[1] 85
+                    name    rank  id
+8 Brevundimonas diminuta species 293
+[1] 86
+                  name    rank   id
+9 Streptococcus oralis species 1303
+[1] 87
+                          name    rank      id
+9 Leucobacter chromiiresistens species 1079994
+[1] 88
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 89
+                       name    rank    id
+8 Janthinobacterium lividum species 29581
+[1] 90
+                    name    rank    id
+13 Clavispora lusitaniae species 36911
+[1] 91
+                    name    rank     id
+8 Psychrobacter arcticus species 334543
+[1] 92
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 93
+                 name    rank     id
+8 Halomonas stevensii species 502821
+[1] 94
+                     name    rank  id
+8 Atlantibacter hermannii species 565
+[1] 95
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 96
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 97
+                     name    rank      id
+9 Anaerococcus obesiensis species 1287640
+[1] 98
+                    name    rank     id
+6 Pseudomonas virus MP38 species 505292
+[1] 99
+                   name    rank     id
+6 Bacillus phage GIL16c species 307240
+[1] 100
+                          name    rank     id
+6 Staphylococcus virus phiETA2 species 326036
+[1] 101
+                          name    rank    id
+8 Acinetobacter radioresistens species 40216
+[1] 102
+                          name    rank    id
+8 delta proteobacterium NaphS2 species 88274
+[1] 103
+                 name    rank    id
+8 Acidovorax citrulli species 80869
+[1] 104
+                 name    rank    id
+9 Ruminococcus bromii species 40518
+[1] 105
+                    name    rank     id
+8 Cronobacter turicensis species 413502
+[1] 106
+                        name    rank     id
+9 Agrobacterium albertimagni species 147266
+[1] 107
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 108
+                                  name    rank     id
+10 Flavobacteriaceae bacterium 3519-10 species 531844
+[1] 109
+               name    rank    id
+6 Influenza A virus species 11320
+[1] 110
+                name    rank  id
+9 Pseudomonas putida species 303
+[1] 111
+                  name    rank    id
+9 Cutibacterium avidum species 33010
+[1] 112
+                   name    rank    id
+9 Pseudomonas monteilii species 76759
+[1] 113
+                   name    rank   id
+9 Clostridium butyricum species 1492
+[1] 114
+                               name    rank     id
+6 Lactococcus phage P335 sensu lato species 354260
+[1] 115
+                     name    rank     id
+8 Cronobacter dublinensis species 413497
+[1] 116
+                    name    rank    id
+9 Anaerococcus vaginalis species 33037
+[1] 117
+                    name    rank     id
+8 Caulobacter vibrioides species 155892
+[1] 118
+                      name    rank    id
+9 Desulfocapsa sulfexigens species 65555
+[1] 119
+                   name    rank     id
+9 Brachybacterium muris species 219301
+[1] 120
+                        name    rank    id
+9 Enterococcus casseliflavus species 37734
+[1] 121
+                      name    rank      id
+9 Peptoniphilus timonensis species 1268254
+[1] 122
+                       name    rank     id
+9 Streptococcus infantarius species 102684
+[1] 123
+                               name    rank    id
+9 Lachnoclostridium phytofermentans species 66219
+[1] 124
+[1] name rank id  
+<0 rows> (or 0-length row.names)
+[1] 125
