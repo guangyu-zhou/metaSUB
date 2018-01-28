@@ -96,22 +96,19 @@ class Model(object):
         # print(self.scores)
         # np.save("score_file.np",self.scores)
         self.predictions = tf.round(self.scores)
-        Lap = load_lap()
+        # Lap = load_lap()
         # print("Lap loaded", Lap.shape)
         # Calculate mean cross-entropy loss
-        self.mani = 0.0
+        # self.mani = 0.0
         # self.loss_no_mani = 0.0
         with tf.name_scope("loss"):
             losses = -tf.reduce_mean(tf.multiply(self.input_y, tf.log(self.scores + 1e-9))  + tf.multiply(1.0 - self.input_y, tf.log(1.0 - self.scores + 1e-9)))
             # refer to: https://github.com/LayneH/MRCNN/blob/master/MRCNN.py
-            # mani=0.0
-            # print("No mani")
-
-            # self.mani = tf.trace(tf.matmul(tf.matmul(self.scores, Lap, transpose_a=True), self.scores))
-
-            self.mani = -tf.trace(tf.matmul(tf.matmul(self.scores, Lap), self.scores, transpose_b=True))
+            # self.mani = -tf.trace(tf.matmul(tf.matmul(self.scores, Lap), self.scores, transpose_b=True))
             # print("mani", mani)
-            self.loss = losses + l2_reg_lambda * self.l2_loss + self.mani*manifold_reg_lambda
+            # self.loss = losses + l2_reg_lambda * self.l2_loss + self.mani*manifold_reg_lambda
+
+            self.loss = losses + l2_reg_lambda * self.l2_loss
             # self.loss_no_mani = losses
 
         with tf.name_scope("accuracy"):

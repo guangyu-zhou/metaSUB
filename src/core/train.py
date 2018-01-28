@@ -28,6 +28,8 @@ tf.flags.DEFINE_float("dropout_keep_prob", 0.8, "Dropout keep probability (defau
 # tf.flags.DEFINE_float("manifold_reg_lambda", 0, "Manifold regularization lambda (default: 1e-7)")
 tf.flags.DEFINE_float("manifold_reg_lambda", 0, "Manifold regularization lambda (default: 1e-7)")
 
+tf.flags.DEFINE_float("ensemble_alpha", 0, "ensemble alpha (default: 0.5)")
+
 # Training parameters
 tf.flags.DEFINE_integer("batch_size", 16, "Batch Size (default: 32)")
 tf.flags.DEFINE_integer("num_epochs", 1000, "Number of training epochs (default: 1000)")
@@ -79,6 +81,7 @@ if __name__ == '__main__':
     num_hidden_layers = FLAGS.num_hidden_layers
     num_hidden_neurons = FLAGS.num_hidden_neurons
     manifold_reg_lambda = FLAGS.manifold_reg_lambda
+    ensemble_alpha = FLAGS.ensemble_alpha
 
     x_train = np.load('../data/{}fold_genus/train_X_{}.data'.format(n_fold, fold),encoding='latin1')
     y_train = np.load('../data/{}fold_genus/train_Y_{}.data'.format(n_fold, fold),encoding='latin1')
@@ -151,23 +154,23 @@ if __name__ == '__main__':
                   model.input_y: y_batch,
                   model.dropout_keep_prob: 1.0
                 }
-                step, loss, mani, predictions, scores = sess.run(
-                    [global_step, model.loss, model.mani, model.predictions, model.scores],
+                step, loss, accuracy, predictions, scores = sess.run(
+                    [global_step, model.loss, model.accuracy, model.predictions, model.scores],
                     feed_dict)
                 time_str = datetime.datetime.now().isoformat()
-                # print("{}: step {}, loss {:g}, mani {:g}".format(time_str, step, loss, mani))
+                # print("{}: step {}, loss {:g}, accuracy {:g}".format(time_str, step, loss, mani))
                 '''
                 Adding ensemble here
                 '''
-                alpha = 0.9
-                # scores = alpha*scores + (1.0 - alpha)*idw_y
+                ensemble_alpha = 0.9
+                # scores = ensemble_alpha*scores + (1.0 - ensemble_alpha)*idw_y
                 # print(scores.shape)
                 predictions = np.round(scores)
                 # print(predictions.shape)
                 # np.savetxt("./scores.txt", scores)
                 # np.savetxt("./predictions.txt", predictions)
 
-                return evaluate(y_batch, predictions, scores), scores
+                return evaluate(y_batch, predictions, scores)
 
             # Generate batches
             batches = data_helpers.batch_iter(
@@ -181,9 +184,8 @@ if __name__ == '__main__':
                 x_batch, y_batch = zip(*batch)
                 train_step(x_batch, y_batch)
                 current_step = tf.train.global_step(sess, global_step)
-                pre, rec, fs, hl, rl, scores = dev_step(x_test, y_test, idw_y)
+                pre, rec, fs, hl, rl = dev_step(x_test, y_test, idw_y)
                 if fs > best_f:
                     best_f = fs
                     print(pre, rec, fs, hl, rl)
-                    np.save("./best_scores.data", scores)
 
