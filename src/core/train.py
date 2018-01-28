@@ -17,13 +17,16 @@ from sklearn.metrics import hamming_loss, precision_score, recall_score, f1_scor
 
 # Data loading params
 tf.flags.DEFINE_integer("n_fold", 3, "number of folds (3/5 default: 3)")
-tf.flags.DEFINE_integer("fold", 0, "(0 ~ n_fold-1 default: 0)")
+tf.flags.DEFINE_integer("fold", 1, "(0 ~ n_fold-1 default: 0)")
 
 # Model Hyperparameters
 tf.flags.DEFINE_integer("num_hidden_layers", 1, "Number of hidden layers (default: 1)")
+# tf.flags.DEFINE_integer("num_hidden_layers", 1, "Number of hidden layers (default: 1)")
 tf.flags.DEFINE_integer("num_hidden_neurons", 8, "Number of hidden layers (default: 64)")
-tf.flags.DEFINE_float("dropout_keep_prob", 0.5, "Dropout keep probability (default: 0.5)")
-tf.flags.DEFINE_float("l2_reg_lambda", 1e-3, "L2 regularization lambda (default: 1e-3)")
+# tf.flags.DEFINE_integer("num_hidden_neurons", 10, "Number of hidden layers (default: 64)")
+tf.flags.DEFINE_float("dropout_keep_prob", 0.8, "Dropout keep probability (default: 0.5)")
+# tf.flags.DEFINE_float("manifold_reg_lambda", 0, "Manifold regularization lambda (default: 1e-7)")
+tf.flags.DEFINE_float("manifold_reg_lambda", 0, "Manifold regularization lambda (default: 1e-7)")
 
 # Training parameters
 tf.flags.DEFINE_integer("batch_size", 16, "Batch Size (default: 32)")
@@ -75,11 +78,18 @@ if __name__ == '__main__':
     fold = FLAGS.fold
     num_hidden_layers = FLAGS.num_hidden_layers
     num_hidden_neurons = FLAGS.num_hidden_neurons
+    manifold_reg_lambda = FLAGS.manifold_reg_lambda
 
-    x_train = np.load('../data/{}fold/train_X_{}.data'.format(n_fold, fold),encoding='latin1')
-    y_train = np.load('../data/{}fold/train_Y_{}.data'.format(n_fold, fold),encoding='latin1')
-    x_test = np.load('../data/{}fold/test_X_{}.data'.format(n_fold, fold),encoding='latin1')
-    y_test = np.load('../data/{}fold/test_Y_{}.data'.format(n_fold, fold),encoding='latin1')
+    x_train = np.load('../data/{}fold_genus/train_X_{}.data'.format(n_fold, fold),encoding='latin1')
+    y_train = np.load('../data/{}fold_genus/train_Y_{}.data'.format(n_fold, fold),encoding='latin1')
+    x_test = np.load('../data/{}fold_genus/test_X_{}.data'.format(n_fold, fold),encoding='latin1')
+    y_test = np.load('../data/{}fold_genus/test_Y_{}.data'.format(n_fold, fold),encoding='latin1')
+
+    # x_train = np.load('../data/{}fold_boston/train_X_{}.data'.format(n_fold, fold),encoding='latin1')
+    # y_train = np.load('../data/{}fold_boston/train_Y_{}.data'.format(n_fold, fold),encoding='latin1')
+    # x_test = np.load('../data/{}fold_boston/test_X_{}.data'.format(n_fold, fold),encoding='latin1')
+    # y_test = np.load('../data/{}fold_boston/test_Y_{}.data'.format(n_fold, fold),encoding='latin1')
+
 
     assert(x_train.shape[0] == y_train.shape[0])
     assert(x_test.shape[0] == y_test.shape[0])
@@ -89,6 +99,10 @@ if __name__ == '__main__':
     num_features = x_train.shape[1]
     num_labels = y_train.shape[1]
     print(num_features, num_labels)   
+    ''' ensemble '''
+    idw_path='../data/ensemble/idw.35.' + str(fold) + '.npy'
+    idw_y = np.load(idw_path).astype(np.float32)
+    print("Loading ensemble", idw_y.shape)
 
     # Training
     # ==================================================
@@ -103,7 +117,8 @@ if __name__ == '__main__':
                     num_features=num_features,
                     num_labels=num_labels,
                     num_hidden_layers=num_hidden_layers,
-                    num_hidden_neurons=num_hidden_neurons)
+                    num_hidden_neurons=num_hidden_neurons,
+                    manifold_reg_lambda=manifold_reg_lambda )
 
             # Define Training procedure
             global_step = tf.Variable(0, name="global_step", trainable=False)
@@ -127,7 +142,7 @@ if __name__ == '__main__':
                 #   print("{}: step {}, loss {:g}, acc {:g}".format(time_str, step, loss, accuracy))
                 #    print(evaluate(y_batch, predictions, scores))
             
-            def dev_step(x_batch, y_batch):
+            def dev_step(x_batch, y_batch, idw_y):
                 """
                 Evaluates model on a dev set
                 """
@@ -136,24 +151,39 @@ if __name__ == '__main__':
                   model.input_y: y_batch,
                   model.dropout_keep_prob: 1.0
                 }
-                step, loss, accuracy, predictions, scores = sess.run(
-                    [global_step, model.loss, model.accuracy, model.predictions, model.scores],
+                step, loss, mani, predictions, scores = sess.run(
+                    [global_step, model.loss, model.mani, model.predictions, model.scores],
                     feed_dict)
                 time_str = datetime.datetime.now().isoformat()
-                return evaluate(y_batch, predictions, scores)
-#                    print("{}: step {}, loss {:g}, acc {:g}".format(time_str, step, loss, accuracy))
+                # print("{}: step {}, loss {:g}, mani {:g}".format(time_str, step, loss, mani))
+                '''
+                Adding ensemble here
+                '''
+                alpha = 0.9
+                # scores = alpha*scores + (1.0 - alpha)*idw_y
+                # print(scores.shape)
+                predictions = np.round(scores)
+                # print(predictions.shape)
+                # np.savetxt("./scores.txt", scores)
+                # np.savetxt("./predictions.txt", predictions)
+
+                return evaluate(y_batch, predictions, scores), scores
 
             # Generate batches
             batches = data_helpers.batch_iter(
-                list(zip(x_train, y_train)), FLAGS.batch_size, FLAGS.num_epochs)
+                list(zip(x_train, y_train)), FLAGS.batch_size, FLAGS.num_epochs)#, shuffle = False)
             # Training loop. For each batch...
             best_f = 0.0
+
+            
+
             for batch in batches:
                 x_batch, y_batch = zip(*batch)
                 train_step(x_batch, y_batch)
                 current_step = tf.train.global_step(sess, global_step)
-                pre, rec, fs, hl, rl = dev_step(x_test, y_test)
+                pre, rec, fs, hl, rl, scores = dev_step(x_test, y_test, idw_y)
                 if fs > best_f:
                     best_f = fs
                     print(pre, rec, fs, hl, rl)
+                    np.save("./best_scores.data", scores)
 

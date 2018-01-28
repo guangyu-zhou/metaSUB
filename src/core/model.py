@@ -1,12 +1,23 @@
 import tensorflow as tf
 import numpy as np
 
+def load_lap():
+    D_path='../data/manifold/genus_dist1.npy'
+    D = np.load(D_path).astype(np.float32)
+    print("D shape", D.shape)
+    # D = np.array([[1,2,3],[0,1,2],[0,1,2]])
+    P = np.diag(np.sum(D, axis=1))
+    L = D - P
+    # print(L, L.shape)
+    return L
+
 class Model(object):
     def __init__(self,
             num_features,
             num_labels,
             num_hidden_layers,
             num_hidden_neurons,
+            manifold_reg_lambda=1e-7,
             l2_reg_lambda=0.0):
         # Placeholders for input, output and dropout
         self.input_x = tf.placeholder(tf.float32, [None, num_features], name='input_x')
@@ -82,12 +93,26 @@ class Model(object):
 
         self.scores = tf.concat(self.ind_scores, 1)
         print(self.scores.shape)
+        # print(self.scores)
+        # np.save("score_file.np",self.scores)
         self.predictions = tf.round(self.scores)
-
+        Lap = load_lap()
+        # print("Lap loaded", Lap.shape)
         # Calculate mean cross-entropy loss
+        self.mani = 0.0
+        # self.loss_no_mani = 0.0
         with tf.name_scope("loss"):
             losses = -tf.reduce_mean(tf.multiply(self.input_y, tf.log(self.scores + 1e-9))  + tf.multiply(1.0 - self.input_y, tf.log(1.0 - self.scores + 1e-9)))
-            self.loss = losses + l2_reg_lambda * self.l2_loss
+            # refer to: https://github.com/LayneH/MRCNN/blob/master/MRCNN.py
+            # mani=0.0
+            # print("No mani")
+
+            # self.mani = tf.trace(tf.matmul(tf.matmul(self.scores, Lap, transpose_a=True), self.scores))
+
+            self.mani = -tf.trace(tf.matmul(tf.matmul(self.scores, Lap), self.scores, transpose_b=True))
+            # print("mani", mani)
+            self.loss = losses + l2_reg_lambda * self.l2_loss + self.mani*manifold_reg_lambda
+            # self.loss_no_mani = losses
 
         with tf.name_scope("accuracy"):
             correct_predictions = tf.equal(self.predictions, self.input_y)
