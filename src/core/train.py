@@ -162,8 +162,8 @@ if __name__ == '__main__':
                 '''
                 Adding ensemble here
                 '''
-                ensemble_alpha = 0.9
-                # scores = ensemble_alpha*scores + (1.0 - ensemble_alpha)*idw_y
+                # ensemble_alpha = 0.9
+                scores = ensemble_alpha*scores + (1.0 - ensemble_alpha) * idw_y
                 # print(scores.shape)
                 predictions = np.round(scores)
                 # print(predictions.shape)
